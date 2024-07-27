@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practice game</title>
+    <link rel="stylesheet" href="game.css">
+  </head>
+  
+  <body>
+   
+    <header> <h1>  🌚   This is the final brain cell game   🤦🏻‍♀️  </h1> </header>
+   
+<div class="screen hello show"> 
+    <h2> You will be asked 10 true or false question, so get ready now! </h2>
+    <button type="submit" class="play"> Play now! </button>
+</div>
+
+<div class="screen questions hide"> 
+    <h2 class="ask"> </h2>
+    <button class="answer true"> True </button>
+    <button class="answer false"> False </button>
+</div>
+
+<div class="screen correct hide"> 
+    <h2> 🕺 Correct! 💅 </h2>
+    <button type="submit" class="continuec"> Continue </button>
+    <br>
+    <img src="giphy.gif" alt="celebration dance">
+</div>
+
+<div class="screen wrong hide"> 
+    <h2> 👀 Whomp whomp, you are wrong! 🫥</h2>
+    <button type="submit" class="continuew"> Continue </button>
+    <br>
+    <img src="bart.gif" alt="celebration dance"> 
+</div>
+
+<div class="screen final hide">
+  <p class="score-message"></p>
+  <button class="play-again">Play Again</button>
+</div>
+
+	<script src="game.js"></script>
+  </body>
+</html>
