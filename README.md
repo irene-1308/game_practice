@@ -34,7 +34,7 @@ To set up and run the Trivia Quiz Game locally, follow these steps:
 
 3. **Open index.html in your preferred browser**:
    ```bash
-   open index.html
+   open game.html
 
 Or, drag the index.html file directly into your browser.
 
